@@ -308,4 +308,8 @@ abstract class CameraPlatform extends PlatformInterface {
   Future<void> setImageFileFormat(int cameraId, ImageFileFormat format) {
     throw UnimplementedError('setImageFileFormat() is not implemented.');
   }
+
+  Future<double> getCameraLenPosition(int cameraId) {
+    throw UnimplementedError('setImageFileFormat() is not implemented.');
+  }
 }
